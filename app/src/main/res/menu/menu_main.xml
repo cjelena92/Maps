@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item android:id="@+id/map_types"
+        android:icon="@drawable/ic_action_map"
+        android:title="Select map type"
+        app:showAsAction="always">
+
+    <menu>
+        <item android:id="@+id/action_normal"
+             android:title="Normal" />
+         <item android:id="@+id/action_hibrid"
+             android:title="Hibrid" />
+         <item android:id="@+id/action_satellite"
+             android:title="Satellite" />
+         <item android:id="@+id/action_terrain"
+             android:title="Terrain"/>
+
+     </menu>
+    </item>
+  <item android:id="@+id/action_settings"
+      android:title="Search"
+      android:icon="@drawable/ic_action_search"
+      app:showAsAction="always"
+      />
+
+    <item android:id="@+id/directions"
+        android:title="@string/direction"
+        android:icon="@drawable/ic_action_directions"
+      app:showAsAction="always"
+ />
+    <item
+        android:id="@+id/btn_next"
+       android:title="@string/next"
+       app:showAsAction="always"
+       />
+
+</menu>
